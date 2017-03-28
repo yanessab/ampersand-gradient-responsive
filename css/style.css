@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'abril_fatfaceregular';
+  margin: 0 auto;
+}
+
+/****** top BOX ******/
+
+#top {
+  height: 360px;
+  background: #fff;
+
+}
+
+.one {
+  font-size: 30px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-left: 75px;
+  float: left;
+}
+
+.two {
+  font-size: 120px;
+  line-height: 120px;
+  text-transform: capitalize;
+  padding-left: 75px;
+  padding-top: 0;
+  clear: both;
+  float: left;
+  margin: 0;
+}
+
+.three {
+  font-size: 30px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-left: 195px;
+  float: left;
+  clear: both;
+}
+
+/****** & ******/
+
+div {
+  font-size: 120px;
+  padding-left: 75px;
+  background: -webkit-linear-gradient(white 57%, #222 43%);
+}
+
+
+#middle span{
+  background: -webkit-linear-gradient(black 57%, white 43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/****** bottom box ******/
+
+#bottom {
+  height: 360px;
+  background: #222;
+  color: #fff;
+  margin: 0;
+  padding-top: 75px;
+}
+
+.four {
+  font-size: 36px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  padding-left: 75px;
+  margin: 0 auto;
+}
+
+.five {
+  font-size: 120px;
+  line-height: 120px;
+  text-transform: capitalize;
+  padding: 0 0 0 75px;
+  float: left;
+  margin: 0 auto;
+}
+
+.six {
+  font-size: 36px;
+  float: left;
+  line-height: 36px;
+  padding-left: 17px;
+  margin: 0 auto;
+}
